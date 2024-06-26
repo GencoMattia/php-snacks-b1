@@ -55,7 +55,7 @@ $matchList = [
 <body>
     <main>
         <ul>
-            <?php foreach ($matchList as $match): ?>
+            <?php foreach ($matchList as $match){ ?>
                 <li>
                     <ul>
                         <li><h2><?= $match["Squadra di casa"] ?> - <?= $match["Squadra Ospite"] ?></h2></li>
@@ -63,7 +63,7 @@ $matchList = [
                         <li><p>Risultato: <?= $match["Risultato"] ?></p></li>
                     </ul>
                 </li>
-            <?php endforeach; ?>
+            <?php } ?>
         </ul>
     </main>
 </body>
