@@ -35,6 +35,12 @@ $matchList = [
         "Stadio" => "Cattedrale 'Cielo Stellato'",
         "Risultato" => rand(1,100) . " | " . rand(1,100),
     ],
-]
+];
+
+foreach($matchList as $key => $match) {
+    foreach($match as $key => $info) {
+        var_dump($info);
+    }
+}
 
 ?>
