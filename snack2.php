@@ -14,3 +14,20 @@ if(strlen($userName) <= 3 && filter_var($email, FILTER_VALIDATE_EMAIL) && filter
 };
 
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./snack2.php" method="GET">
+        <input type="text" name="userName" id="userName">
+        <input type="email" name="email" id="email">
+        <input type="number" name="userAge" id="userAge">
+        <button>Submit</button>
+    </form>
+</body>
+</html>
