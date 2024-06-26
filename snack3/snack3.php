@@ -16,6 +16,27 @@ $postList = [
             "text" => "La speranza rinasce nella Terra di Mezzo. Gondor risorge!"
         ]
     ],
+
+    "12-08-3018" => [
+        [
+            "title" => "La foresta di Lothlórien in pericolo",
+            "author" => "Legolas Greenleaf",
+            "text" => "Orchi e ragni giganti minacciano la nostra amata foresta."
+        ]
+    ],
+
+    "02-02-3017" => [
+        [
+            "title" => "Le miniere di Moria risvegliate",
+            "author" => "Gimli, Figlio di Glóin",
+            "text" => "Un antico male si agita nelle profondità della terra."
+        ],
+        [
+            "title" => "Il peso dell'Unico Anello",
+            "author" => "Frodo Baggins",
+            "text" => "Il fardello è pesante, ma la missione deve essere compiuta."
+        ]
+    ]
 ]
 
 ?>
