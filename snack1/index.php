@@ -55,9 +55,15 @@ foreach($matchList as $key => $match) {
 <body>
     <main>
         <ul>
-            <?php foreach($matchList as $key => $match) { ?>
-                
-            <?php } ?>
+            <?php foreach ($matchList as $match): ?>
+                <li>
+                    <ul>
+                        <li><h2><?= $match["Squadra di casa"] ?> - <?= $match["Squadra ospite"] ?></h2></li>
+                        <li><p>Stadio: <?= $match["Stadio"] ?></p></li>
+                        <li><p>Risultato: <?= $match["Risultato"] ?></p></li>
+                    </ul>
+                </li>
+            <?php endforeach; ?>
         </ul>
     </main>
 </body>
