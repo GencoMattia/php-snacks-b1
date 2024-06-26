@@ -11,6 +11,30 @@ $matchList = [
         "Stadio" => "Palazzetto dello Sport -Fuoco e Ghiaccio-",
         "Risultato" => rand(1,100) . " | " . rand(1,100),
     ],
+    [
+        "Squadra di casa" => "Lupi Solitari",
+        "Squadra Ospite" => "Pantere Nere",
+        "Stadio" => "Arena 'Cuore Selvaggio'",
+        "Risultato" => rand(1,100) . " | " . rand(1,100),
+    ],
+    [
+        "Squadra di casa" => "Giganti di Pietra",
+        "Squadra Ospite" => "Folletti Verdi",
+        "Stadio" => "Stadio 'Montagna Incantata'",
+        "Risultato" => rand(1,100) . " | " . rand(1,100),
+    ],
+    [
+        "Squadra di casa" => "Squali Martello",
+        "Squadra Ospite" => "Delfini Blu",
+        "Stadio" => "Piscina Olimpica 'Oceano Profondo'",
+        "Risultato" => rand(1,100) . " | " . rand(1,100),
+    ],
+    [
+        "Squadra di casa" => "Falchi Pellegrini",
+        "Squadra Ospite" => "Gufi Reali",
+        "Stadio" => "Cattedrale 'Cielo Stellato'",
+        "Risultato" => rand(1,100) . " | " . rand(1,100),
+    ],
 ]
 
 ?>
