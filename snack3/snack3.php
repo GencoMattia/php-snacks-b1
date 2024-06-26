@@ -56,6 +56,21 @@ $postList = [
                 echo $key;
                 ?>
             </h2>
+            <ul class="blog-content">
+                <?php foreach($posts as $post) { ?>
+                    <li>
+                        <h3>
+                            <?php echo $post["title"] ?>
+                        </h3>
+                        <h4>
+                            Autore: <?php echo $post["author"] ?>
+                        </h4>
+                        <p>
+                            <?php echo $post["text"] ?>
+                        </p>
+                    </li>
+                <?php } ?>
+            </ul>
         </div>
     <?php } ?>
 </body>
