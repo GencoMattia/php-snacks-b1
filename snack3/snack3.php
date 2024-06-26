@@ -49,7 +49,7 @@ $postList = [
     <title>Posts of the Rings</title>
 </head>
 <body>
-    <?php foreach($postList as $key => $date) { ?>
+    <?php foreach($postList as $key => $posts) { ?>
         <div class="blog-post">
             <h2>
                 <?php
