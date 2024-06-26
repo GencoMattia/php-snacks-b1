@@ -37,11 +37,11 @@ $matchList = [
     ],
 ];
 
-foreach($matchList as $key => $match) {
-    foreach($match as $key => $info) {
-        echo $info["Squadra di casa" . " - " . "Squadra Ospite" . " | " . "Risultato"];
-    }
-}
+// foreach($matchList as $key => $match) {
+//     foreach($match as $key => $info) {
+//         echo $info["Squadra di casa" . " - " . "Squadra Ospite" . " | " . "Risultato"];
+//     }
+// }
 
 ?>
 
@@ -58,7 +58,7 @@ foreach($matchList as $key => $match) {
             <?php foreach ($matchList as $match): ?>
                 <li>
                     <ul>
-                        <li><h2><?= $match["Squadra di casa"] ?> - <?= $match["Squadra ospite"] ?></h2></li>
+                        <li><h2><?= $match["Squadra di casa"] ?> - <?= $match["Squadra Ospite"] ?></h2></li>
                         <li><p>Stadio: <?= $match["Stadio"] ?></p></li>
                         <li><p>Risultato: <?= $match["Risultato"] ?></p></li>
                     </ul>
