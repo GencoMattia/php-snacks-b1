@@ -3,9 +3,9 @@ Con un form passare come parametri GET name, mail e age e verificare (cercando i
 
 <?php
 
-$userName = $_GET["userName"];
-$email = $_GET["email"];
-$userAge = $_GET["userAge"];
+$userName = $_GET["userName"] ?? "";
+$email = $_GET["email"] ?? "";
+$userAge = $_GET["userAge"] ?? "";
 
 if(strlen($userName) <= 3 && filter_var($email, FILTER_VALIDATE_EMAIL) && filter_var($userAge, FILTER_VALIDATE_INT)) {
     echo "Access Granted";
