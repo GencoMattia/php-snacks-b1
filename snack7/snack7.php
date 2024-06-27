@@ -23,6 +23,9 @@ include __DIR__ . "/utilities/array.php";
                 <h2>
                     <?php echo $studente["nome"] . " " . $studente["cognome"] ?>
                 </h2>
+                <p>
+                    La media dei voti è: <?php echo (array_sum($studente["voti"]) / (count($studente["voti"]))) ?>
+                </p>
             </article>
         <?php } ?>
     </main>
