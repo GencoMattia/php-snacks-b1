@@ -4,7 +4,7 @@ Questo array dovra' essere inserito in un file separato, da importare.
 Stampare Nome, Cognome e la media dei voti di ogni alunno. -->
 
 <?php 
-include __DIR__ . "/utilities/array.php";
+include __DIR__ . "/utilities/arrays/array.php";
 
 ?>
 
