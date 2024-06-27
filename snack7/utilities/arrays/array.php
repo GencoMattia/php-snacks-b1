@@ -14,5 +14,10 @@ $classe = [
         'nome' => 'Luca',
         'cognome' => 'Bianchi',
         'voti' => [9, 9, 7, 6]
-    ]
+    ],
+    [
+        'nome' => 'Sara',
+        'cognome' => 'Cicoria',
+        'voti' => [4, 4, 6, 6]
+    ],
 ];
