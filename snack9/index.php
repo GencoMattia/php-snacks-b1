@@ -3,6 +3,8 @@ Cerchiamo di usare il piu' possibile getter e setter per accedere e modificare i
 
 <?php 
 
-
+require_once __DIR__ . "/classes/Users.php";
+require_once __DIR__ . "/classes/PremiumUsers.php";
+require_once __DIR__ . "/classes/Membership.php";
 
 ?>

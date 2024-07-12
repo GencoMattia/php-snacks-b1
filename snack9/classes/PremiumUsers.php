@@ -8,12 +8,12 @@ require_once __DIR__ . "/Membership.php";
  */
 class PremiumUser extends User {
     private $password;
-    private $benefits;
+    private $membership;
 
-    public function __construct($username, $password, $benefits){
+    public function __construct($username, $password, Membership $membership){
         parent::__construct($username);
         $this -> password = $password;
-        $this -> benefits = $benefits;
+        $this -> membership = $membership;
     }
 
     /**
@@ -35,8 +35,8 @@ class PremiumUser extends User {
         return $this -> password = $password;
     }
 
-    public function getBenefits(){
-        return $this -> benefits;
+    public function getMembership(){
+        return $this -> membership;
     }
 }
 
